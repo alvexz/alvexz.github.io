@@ -1,0 +1,44 @@
+body {
+    background-color: #002454;
+}
+
+header {
+    width: 100%;
+    background-color: #417C9A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.menu li a:hover {
+    background-color:#002454;
+}
+
+#ARO {
+    margin-left: 30%;
+    
+}
+
+#map {
+    height: 600px;
+    
+}
+
